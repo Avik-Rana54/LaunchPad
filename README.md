@@ -21,16 +21,16 @@ Launchpad 2k26 is the official, interactive web platform designed for events, ha
 
 **Fonts & Icons: Google Fonts (Inter, Outfit) and dynamic Font Awesome icon kits (fa-beat, fa-bounce).
 
-🤖 Use of AI Tools
-AI assistance was used as a final "touch-up" and debugging partner to streamline development:
+🤖 Use of AI Tools:
 
-Asset Generation: Used to quickly generate modern tech graphics and icons matching the portal's aesthetic.
+photo generation.
 
 Debugging: Assisted in rapid troubleshooting, fixing minor CSS alignment bugs, and ensuring cross-browser responsiveness.
 
 Profile Integration & Touch-ups: Used to quickly bridge login_auth.js and profile.js, ensuring that user session data smoothly carries over to render the user profile dashboard immediately after a successful login confirmation.
 
 Documentation: This README.md file was structured and formatted with the help of AI.
+
 ```markdown
 
 ## 📁 Project Structure
