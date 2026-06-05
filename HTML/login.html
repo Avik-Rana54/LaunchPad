@@ -127,12 +127,12 @@
     </div>
     </div>
 
-    <div id="otp-overlay" class="otp-overlay" style="display: none;">
+    <div id="otp-body" class="otp-body" style="display: none;">
         <div class="otp-box glass">
             <h2>Verify Your Email</h2>
             <p>Enter the 4-digit code simulated for <br><strong id="otp-email-display">user@example.com</strong></p>
-            <div class="otp-hint-alert">
-                <i class="fa-solid fa-circle-info"></i> Simulated OTP code: <span id="simulated-otp-code" style="font-weight: 800; font-size: 1.1rem; color: var(--accent-red-dark);">1234</span>
+            <div class="otp-alert">
+                <i class="fa-solid fa-circle-info"></i> Simulated OTP code: <span id="otp-code" style="font-weight: 800; font-size: 1.1rem; color: var(--accent-red-dark);">1234</span>
             </div>
             <div class="input-box" style="margin-top: 1rem; margin-bottom: 1.5rem;">
                 <input type="text" id="otp-input" placeholder="0000" maxlength="4" required style="letter-spacing: 0.5rem; text-align: center; font-size: 1.5rem; font-weight: 800;">
@@ -144,6 +144,7 @@
         </div>
     </div>
     </main>
+    <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-brand">
