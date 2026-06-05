@@ -24,6 +24,7 @@ Launchpad 2k26 is the official, interactive web platform designed for events, ha
 🤖 Use of AI Tools:
 
 photo generation.
+text-generation : near equal to all the paragraphs written here is either AI generated or modified using AI.
 
 Debugging: Assisted in rapid troubleshooting, fixing minor CSS alignment bugs, and ensuring cross-browser responsiveness.
 
