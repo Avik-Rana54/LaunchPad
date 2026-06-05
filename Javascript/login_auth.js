@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                         alert('Registration successful!');
                         otpBody.style.display = 'none';
-                        window.location.href = '/HTML/profile.html';
+                        window.location.href = 'HTML/profile.html';
                     } catch (err) {
                         alert('Could not save user data.');
                     }
