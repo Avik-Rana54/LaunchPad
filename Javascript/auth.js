@@ -15,7 +15,7 @@ function updateNavbar() {
         if (currentUser) {
             const parent = loginBtn.parentElement;
             const profileLink = document.createElement('a');
-            profileLink.href = '/HTML/profile.html';
+            profileLink.href = 'HTML/profile.html';
             profileLink.id = 'profile-btn';
             profileLink.textContent = 'Profile';
 
