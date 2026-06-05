@@ -22,22 +22,23 @@ Scripting: JavaScript (ES6+ for animations and state handling)
 Fonts & Icons: Google Fonts (Inter, Outfit) and dynamic Font Awesome icon kits (fa-beat, fa-bounce).
 
 📁 Project Structure
+Plaintext
 Launchpad-2k26/
 ├── CSS/
-│   ├── style.css               # Main stylesheet
-│   └── profile.css             # User profile dashboard styles
+│   ├── style.css             # Global styles (Hero section, feature grid, partner marquee, footer)
+│   └── profile.css           # Custom UI component styling for the user dashboard
 ├── HTML/
-│   ├── index.html              # Main landing page
-│   ├── competitions.html       # Events & competitions portal
-│   ├── login.html              # User authentication page
-│   └── profile.html            # Post-login user dashboard
+│   ├── index.html            # Main landing page & landing sequence entry point
+│   ├── competitions.html     # Portal listing campus events, hackathons, and bootcamps
+│   ├── login.html            # User authentication interface (Sign-up / Sign-in)
+│   └── profile.html          # Dynamic post-login user dashboard and session panel
+├── HTML/ (or Images/)        # (Note: Ensure your images match the pathing used in your HTML)
 └── Javascript/
-    ├── intro_animation.js      # Landing page animation script
-    ├── login_transition.js     # Login page UI transitions
-    ├── login_auth.js           # Authentication handler
-    ├── auth.js                 # Tab switching and form glue code
-    └── profile.js              # Handles user data and dashboard rendering after login 
-
+    ├── intro_animation.js    # Controls the core splash screen entry sequences
+    ├── login_transition.js   # Manages smooth visual transitions on the login forms
+    ├── login_auth.js         # Oversees credential verification and state checks
+    ├── auth.js               # Tab-switching glue code, form manipulation, and connectivity
+    └── profile.js            # Handles session data storage and renders dynamic dashboard
     
 🤖 Use of AI Tools
 AI assistance was used as a final "touch-up" and debugging partner to streamline development:
