@@ -27,14 +27,19 @@ Launchpad 2k26 is the official, interactive web platform designed for events, ha
 
 ```text
 ├── CSS/
-│   └── style.css #Main stylesheet
-       profile.css #profile style sheet
+│     └──style.css #Main stylesheet
+      └──profile.css #profile style sheet
 ├── HTML/
 │   ├── index.html                # Main landing page (this file)
 │   ├── competitions.html         # Events & competitions portal
 │   └── login.html                # User authentication page
-├── Images/
-│   ├── home_icon.jpg             # Site favicon
-│   └── computer.png              # Intro section asset
+    └──  profile.html               # after login profile page
+
 └── Javascript/
     └── intro_animation.js        # Core landing page animation script
+     └── login_transistion.js    #login page animation
+    └── profile.js                #Helps to store user data and profile after login completion
+    └── login_auth.js             #Authentication for Login
+     └── auth.js                  #used for tab switch,FOM manupulation and Connecting files
+
+
