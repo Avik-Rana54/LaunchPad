@@ -477,7 +477,7 @@ header{
     border-radius: 12px; 
     background: linear-gradient(45deg, #ef233c, #ffc300); }
 
-.image img :hover{
+.image img:hover{
     animation: jump 2s infinite ease-in ;
 }
 
@@ -830,8 +830,7 @@ form{
     box-shadow: none;
 }
 
-/* OTP Overlay Styles */
-.otp-overlay {
+.otp-body{
     position: fixed;
     top: 0;
     left: 0;
@@ -844,7 +843,7 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fadeIn 0.3s ease-in-out;
+    animation: fade_inn 0.3s ease-in-out;
 }
 
 .otp-box {
@@ -872,7 +871,7 @@ form{
     color: var(--text-secondary);
 }
 
-.otp-hint-alert {
+.otp-alert {
     background: rgba(255, 195, 0, 0.15);
     border: 1px solid var(--accent-yellow);
     border-radius: 8px;
@@ -916,7 +915,7 @@ form{
     transform: scale(1.05);
 }
 
-@keyframes fadeIn {
+@keyframes fade_inn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
