@@ -597,6 +597,31 @@ header{
     height:75px;
     width: 50px;
 } 
+.end_footer{
+    height: 100px;
+    margin-top: 10px;
+    padding:3px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background: var(--bg-color);
+}
+.end-footer a{
+    font-size:15px;
+    font-weight:600;
+    text-decoration: none;
+    color:var(--text-primary);
+}
+.end-footer a:hover{
+    color: var(--accent-red);
+    scale: 1.1;
+    transform: translateX(-15px);
+    border-color: #bdd1e3;
+    font-family: 'Playwrite GB J';
+    font-style: italic;
+    font-weight: 100 400;
+    font-display: swap;
+}
 /* Sliding of pages */
 @view-transition{
     navigation: auto;
